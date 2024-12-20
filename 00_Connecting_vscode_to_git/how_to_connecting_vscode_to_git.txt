@@ -1,0 +1,35 @@
+참고 웹사이트:
+https://wikidocs.net/195271
+https://thenicesj.tistory.com/506
+
+1. Github 회원가입, 레포지토리 생성
+2. Git for windows 다운로드
+3. Git Bash 실행
+4. Git에서 사용할 폴더 설정
+- 리눅스 명령어를 사용 (ex. cd, cd.. 등)
+- 사용을 원하는 폴더 디렉토리에 가서 git init 명령어를 쓰면 .git 디렉토리를 생성한다
+- 이메일, 이름을 지정해야 하는 경우, git 웹의 이메일, 이름을 설정
+4. VScode에서 git 실행
+좌측 Source Control에서 Open folder > 원하는 폴더 선택
+5. VScode에서 커밋, 푸시
+(1) 스테이징: 커밋 대상 지정하기
+- Source Control 아래 "Changes"에 새로 바뀐 항목 목록이 있음
+- 커밋을 원하는 것만 + 버튼을 누른다
+ 모두 커밋하려면 "Stage All Changes"를 누른다
+ 
+(2) 로컬 디스크 커밋
+- Message Box에 이번 커밋에 대한 간략한 설명을 써준다
+- "Source Control" 네비게이션 바 위에 호버했을 때 나타나는 작은 체크박스(파란색 큰 체크박스 아님)를 클릭
+
+(3) github 커밋
+- 그 후에 뜨는 파란색 "Sync Changes" 버튼을 누른다
+- 경고창에 branch에 push한다는 경고가 뜨면 내용을 확인하고 OK 버튼을 누른다
+
+cf.
+- 스테이징(add): 커밋할 대상과 커밋 위치를 정해주는 것
+- 커밋(commit): 로컬 저장소에 변경사항을 반영하는 것 (work space -> local repository)
+- 푸시(push): 로컬 저장소의 변경사항을 원격으로 보내는 것 (local repository -> remote repository)
+- 패치 (fetch): remote repository -> local repository
+- 풀 (pull): remote repository -> workspace
+- 체크아웃 (checkout): local repository -> workspace
+
