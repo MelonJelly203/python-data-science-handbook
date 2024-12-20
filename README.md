@@ -12,7 +12,7 @@ The Python Data Science Handbook is a comprehensive guide to data science using 
 - Projects: Apply concepts to real-world data science projects for deeper understanding.
 
 ## Structure
-- The repository is organized into the following sections, mirroring the chapters of the book:
+The repository is organized into the following sections, mirroring the chapters of the book:
 - Introduction to IPython and Jupyter
 - Numerical Computing with NumPy
 - Data Manipulation with Pandas
