@@ -1,4 +1,4 @@
-# python-data-science-handbook
+# python-data-science-handbook (2nd Edition)
 ## Python Data Science Handbook: Study Repository
 Welcome to my study repository for the Python Data Science Handbook by Jake VanderPlas, published by O'Reilly Media. This repository is a collection of my notes, exercises, and projects as I work through the concepts and techniques outlined in the book.
 
